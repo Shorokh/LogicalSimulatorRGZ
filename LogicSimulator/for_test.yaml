@@ -1,0 +1,57 @@
+---
+name: Newy
+created: 1684471551
+modified: 1684471704
+items:
+	-
+		id: 4
+		pos: $p$362,293
+		size: $s$71,71
+		base_size: 25
+	-
+		id: 5
+		pos: $p$222,301
+		size: $s$71,71
+		base_size: 25
+		state: false
+	-
+		id: 7
+		pos: $p$511,301
+		size: $s$71,71
+		base_size: 25
+		state: true
+	-
+		id: 7
+		pos: $p$541,391
+		size: $s$71,71
+		base_size: 25
+		state: false
+	-
+		id: 7
+		pos: $p$187,445
+		size: $s$71,71
+		base_size: 25
+		state: false
+joins:
+	-
+		- 2
+		- 0
+		- In
+		- 0
+		- 1
+		- Out
+	-
+		- 3
+		- 0
+		- In
+		- 0
+		- 2
+		- Out
+	-
+		- 1
+		- 0
+		- Out
+		- 0
+		- 0
+		- In
+states: "0100"
